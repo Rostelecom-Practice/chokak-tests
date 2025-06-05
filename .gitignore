@@ -1,0 +1,81 @@
+# Firebase token
+*firebase*.json
+
+# Version control
+.git
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Virtual environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.env
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE specific files
+.idea/
+.gigaide/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Docker
+Dockerfile
+docker-compose.yml
+.docker/
+
+# Documentation
+docs/
+*.md
+LICENSE
+README*
+
+# Log files
+*.log
+logs/
+
+# Local development configuration
+*.local
+local_settings.py
+instance/
+
+# Unit test / coverage reports
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
