@@ -23,5 +23,4 @@ def firebase_test_id_token():
     response.raise_for_status()
 
     id_token = response.json()["idToken"]
-    print(id_token)
     return id_token
