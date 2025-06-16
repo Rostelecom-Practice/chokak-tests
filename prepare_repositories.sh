@@ -14,3 +14,8 @@ fi
 if [ ! -d services/chokak-cloud-storage ]; then
     git clone https://github.com/Rostelecom-Practice/chokak-cloud-storage.git services/chokak-cloud-storage
 fi
+
+if [ ! -d services/external-service-example ]; then
+    git clone https://github.com/Rostelecom-Practice/external-service-example.git services/external-service-example
+fi
+
