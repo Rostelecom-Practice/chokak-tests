@@ -73,11 +73,13 @@ class ImageWorkflow(SequentialTaskSet):
         self.client.delete(corrected_url, name="Delete Image", headers=self.auth_headers)
 
 class ImageServerUser(HttpUser):
+    weight = 1
     host = API_BASE
     tasks = [ImageWorkflow]
     wait_time = between(1, 3)
 
 class MainServerUser(HttpUser):
+    weight = 3
     host = API_BASE
     wait_time = between(1, 3)
 
